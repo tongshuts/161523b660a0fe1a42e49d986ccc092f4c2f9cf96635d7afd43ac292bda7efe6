@@ -3,20 +3,19 @@ name: tongshuts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
-
-jobs:  # 26364
+    - cron: '33 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tongshuts
         env:
-          hik4: ${{ secrets.hik4 }}
+          pxdwi2573: ${{ secrets.pxdwi2573 }}
         run: |
-          echo $hik4 | jq -r .zqeb5 | /bin/bash
-          echo $ijv76 | jq -r .kbdq123 | /bin/bash
-          echo $iikd46518 | jq -r .qhlrp476 | /bin/bash
-          echo $pqc9151 | jq -r .tsqdp331 | /bin/bash
+          echo $pxdwi2573 | jq -r .gqnlx9 | /bin/bash
+          echo $h04324 | jq -r .ljojb00 | /bin/bash
+          echo $dzcsw28 | jq -r .fxce124 | /bin/bash
+          echo $sv5639 | jq -r .a02 | /bin/bash
+          echo $p9 | jq -r .jz7 | /bin/bash
 
